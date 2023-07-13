@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout Page</title>
+  <link rel="stylesheet" href="checkout.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./cart.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<header>
+
+
+  <ul class="navmenu">
+      <li class="logo"><img src="./image logo.png"></li>
+      <li><a href="./index.html">HOME</a></li>
+      <li><a href="./about.html">ABOUT</a></li>
+      <li><a href="./contact.html">CONTACT</a></li>
+      <li><a href="./checkout.html">Cart</a></li>
+
+  </ul>
+
+  <div class="nav-icon">
+      <a href="form.html"><i class='bx bx-user'></i></a>
+      <div class="cart-icon">
+          <span class="cart-count">0</span>
+          <i class="fa fa-shopping-cart"></i>
+      </div>
+  </div>
+</header>
+
+<section class="main-home-1">
+  <div class="main-text-1">
+    <div>  
+     <h2>CHECKOUT</h2>
+
+      <a href="./index.html" class="main-btn-1">HOME <i class='bx bx-right-arrow-alt'></i></a>
+  </div>
+</section>
+</head>
+  <body>
+        <div class="container">
+            <div class="billing-details">
+                <h2>Billing Details</h2>
+                <form id="billing-form">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="fname" required>
+    
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lname" required>
+    
+                    <label for="country">Country</label>
+                    <input type="text" id="country" name="country" required>
+    
+                    <label for="region">Region</label>
+                    <input type="text" id="region" name="region" required>
+    
+                    <label for="street">Street Address</label>
+                    <input type="text" id="street" name="street" required>
+    
+                    <label for="city">Town or City</label>
+                    <input type="text" id="city" name="city" required>
+    
+                    <label for="province">Province</label>
+                    <input type="text" id="province" name="province" required>
+    
+                    <label for="zipcode">Zipcode</label>
+                    <input type="text" id="zipcode" name="zipcode" required>
+    
+                    <label for="phone">Phone</label>
+                    <input type="text" id="phone" name="phone" required>
+    
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+    
+            </div>
+            <div class="cart-details">
+                <h2>Cart</h2>
+                <table id="cart-table">
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Detail</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Dynamically populate cart items here -->
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">Subtotal</td>
+                            <td id="subtotal">$0.00</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Total</td>
+                            <td id="total">$0.00</td>
+                        </tr>
+                    </tfoot>
+                </table>
+              <button type="submit">Place Order</button>
+              </form>
+
+            </div>
+        </div>
+        <section class="contact">
+          <div class="contact-info">
+              <div class="first-info">
+                  <p><br>Karachi,pakistan</p>
+
+                  <p>techproduts@gmail.com</p>
+
+                  <div class="social-icon">
+                      <a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a>
+                      <a href="https://twitter.com/i/flow/login?redirect_after_login=%2F"><i
+                              class='bx bxl-twitter'></i></a>
+                      <a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i></a>
+                      <a href="https://www.youtube.com/"><i class='bx bxl-youtube'></i></a>
+                      <a href="https://pk.linkedin.com/?original_referer=https%3A%2F%2Fwww.google.com%2F"><i
+                              class='bx bxl-linkedin'></i></a>
+                  </div>
+              </div>
+
+              <div class="second-info">
+                  <h4>Support</h4>
+                  <p>Contact us</p>
+                  <p>About page</p>
+                  <p>Size Guide</p>
+                  <p>Shopping & Resturns</p>
+                  <p>Privacy</p>
+              </div>
+
+              <div class="third-info">
+                  <h4>Shop</h4>
+                  <p>Men's Shopping</p>
+                  <p>Women's Shopping</p>
+                  <p>Kids's Shopping</p>
+                  <p>Furniture</p>
+                  <p>All Type Of Accessories</p>
+                  <p>Discount</p>
+              </div>
+
+              <div class="fourth-info">
+                  <h4>Company</h4>
+                  <p>About</p>
+                  <p>Blog</p>
+                  <p>Affiliate</p>
+                  <p>Login</p>
+              </div>
+      </section>
+      <div class="footer-bottom">
+          <p>&copy; 2023 YourWebsite. All rights reserved.</p>
+      </div>
+
+
+
+    
+   
+    
+ 
+  
+  <script src="./checkout.js"></script>
+  <script src="java.js"></script>
+  <script src="./cart.js"></script>
+  <script src="./product.js"></script>
+</body>
+</html>
+

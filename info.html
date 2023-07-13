@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MORE INFO</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="cart.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./about.css">
+    <link rel="stylesheet" href="./info.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+    <header>
+
+
+        <ul class="navmenu">
+            <li class="logo"><img src="./image logo.png"></li>
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./about.html">ABOUT</a></li>
+            <li><a href="./contact.html">CONTACT</a></li>
+            <li><a href="./checkout.html">CART</a></li>
+        </ul>
+
+        <div class="nav-icon">
+            <a href="form.html"><i class='bx bx-user'></i></a>
+            <div class="cart-icon">
+                <span class="cart-count">0</span>
+                <i class="fa fa-shopping-cart"></i>
+            </div>
+        </div>
+    </header>
+    <section class="main-home-1">
+        <div class="main-text-1">
+            <div>
+                <h2 class="About">Contact Us</h2>
+
+                <a href="./index.html" class="main-btn-2">HOME <i class='bx bx-right-arrow-alt'></i></a>
+            </div>
+    </section>
+    <section class="mainbanner grid-container-1 container-12">
+        <div class="grid-item"><img src="./17.jpg" alt=""></div>
+        <div class="grid-item">
+            <h3>EXCLUSIVE OFFER</h3>
+            <h1>GET 10% Discount on the most popular product using code2023</h1>
+            <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, beatae velit. Illo deserunt
+                doloribus voluptatum repellendus placeat perferendis porro laudantium nihil explicabo corporis
+                maiores quibusdam, accusantium illum rem doloremque natus itaque repellat saepe! Provident unde
+                reiciendis magni delectus quae inventore error iusto exercitationem aut dolores, iste itaque
+                assumenda, quos odit.</h3>
+        <div class="price">
+            <h3>BA56</h3>
+            <p>$125</p>
+            <div>
+                <button class="add-to-cart-btn" onclick="addToCart('special',125)"><a href="#" class="main-btn">Add
+                        To Cart <i class='bx bx-right-arrow-alt'></i></a></button>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <script src="java.js"></script>
+    <script src="./cart.js"></script>
+    <script src="./product.js"></script>
+    <div class="cart" id="cart">
+        <h2 class="cart-header">Shopping Cart</h2>
+        <div class="cart-items" id="cart-items"></div>
+        <a href="checkout.html"> <button class="checkout-button">checkout</button>
+    </div>
+    </div>
+</body>
+
+</html>

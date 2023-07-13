@@ -1,0 +1,112 @@
+body {
+  background-color: whitesmoke;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.login-form {
+  width: 45%;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+}
+
+.login-form input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+.login-form button {
+  padding: 10px 20px;
+  background-color: #0080ff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.social-login {
+  margin-top: 10px;
+}
+
+.social-login p {
+  margin-bottom: 5px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.forgot-password {
+  margin-top: 10px;
+}
+
+.forgot-password a {
+  color: #0080ff;
+  text-decoration: none;
+}
+
+.signup-link {
+  margin-top: 10px;
+}
+
+.signup-link a {
+  color: #0080ff;
+  text-decoration: none;
+}
+
+
+h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form-group button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-group button:hover {
+  background-color: #45a049;
+}
+
+.error {
+  color: red;
+  margin-top: 5px;
+}
